@@ -1,0 +1,36 @@
+#!/system/bin/sh
+
+ID="deblo"
+_name=$(basename $0)
+ls /data >/dev/null 2>&1 || { echo "$ID needs to run as root!"; echo "type 'su' then '$_name'"; exit 1; }
+clear
+echo "\033[1;41;37m==>PLEASE USE MAGISK V19.3<==\033[0m"
+echo "$div"
+ba=(`basename $0`)
+
+ref () {
+sh $ba 2>/dev/null
+sh /system/bin/$ba 2>/dev/null
+}
+
+echo "\033[1;36m(1)\033[0m \033[1;1;3;33mMiui rom\033[0m"
+echo "\033[1;36m(2)\033[0m \033[1;1;3;33mAosp rom\033[0m"
+echo "$div"
+echo "\033[1;41;37m(y) For exit\033[0m"
+echo "$div"
+echo -n "\033[1;32m[CHOICE]:\033[0m"
+
+read ty
+
+case $ty in
+1)
+sh /system/bin/miui
+;;
+2)
+sh /system/bin/aosp
+;;
+y) clear && echo "😁 Bye Bye 😁" && exit
+;;
+*) echo "\033[1;41;37mError. select any number of the list\033[0m" && exit
+;;
+esac
