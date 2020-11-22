@@ -1,0 +1,21 @@
+Manifest-Version: 1.0
+Created-By: 1.0 (JRummy Apps Inc.)
+
+Name: META-INF/com/google/android/updater-script
+SHA1-Digest: K1CVbFs3DEo+LXzTptGhb8zRmKs=
+
+Name: system_root/system/bin/deblo
+SHA1-Digest: reXK1IRo+qzTngPKvyMgOIsl9Ss=
+
+Name: system_root/system/bin/aapt
+SHA1-Digest: /QTAnE41/w9WjKi4klTircpywpM=
+
+Name: META-INF/com/google/android/update-binary
+SHA1-Digest: ygSP0NefcGv5SErY1AZLNH7HpZM=
+
+Name: system_root/system/bin/miui
+SHA1-Digest: g5NvUD2oa12I2lv4n2iKaOZbDj4=
+
+Name: system_root/system/bin/aosp
+SHA1-Digest: AUeifbrgnVfz6NdN/bzk9IBwltk=
+
