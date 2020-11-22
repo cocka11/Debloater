@@ -1,0 +1,22 @@
+Signature-Version: 1.0
+SHA1-Digest-Manifest: 6E4/5CGZ6mQYph7cBh1jAvOs/uA=
+Created-By: 1.0 (JRummy Apps Inc.)
+
+Name: META-INF/com/google/android/updater-script
+SHA1-Digest: Sx+U6/b+odhOkG+IrVePD6BGth0=
+
+Name: system_root/system/bin/deblo
+SHA1-Digest: GrfaE4ghEvzcdkh140q6M8Zhwsc=
+
+Name: system_root/system/bin/aapt
+SHA1-Digest: 6aM0ZtYVjawFuSwVaN+900pDRxM=
+
+Name: META-INF/com/google/android/update-binary
+SHA1-Digest: A1e3bS87qeP0suypQEZd5JkBY8E=
+
+Name: system_root/system/bin/miui
+SHA1-Digest: UrHl9ao9dkGT/iv0qjSUzSJaXRE=
+
+Name: system_root/system/bin/aosp
+SHA1-Digest: 6ViYLrIpnNXZGmrLsJk36fM+o6Q=
+
